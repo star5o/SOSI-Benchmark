@@ -1,10 +1,10 @@
+<?PHP
+session_start();
+?>
 <html>
 <head>
 </head>
 <body bgcolor="#000000">
-<?PHP
-session_start();
-?>
 <div align="right">
 <a style="font-size:.8em;color:#FFFF00" href='index.php'><img src="images/Home.png" height='45'; width='45'></br>HOME</a>
 </div>

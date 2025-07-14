@@ -9,6 +9,9 @@ RUN a2enmod rewrite
 # 复制应用程序文件到容器
 COPY . /var/www/html/
 
+# 复制 PHP 配置文件
+COPY php.ini /usr/local/etc/php/php.ini
+
 # 设置工作目录
 WORKDIR /var/www/html
 
