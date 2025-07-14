@@ -1,7 +1,7 @@
-FROM php:7.4-apache
+FROM php:5.6-apache
 
 # 安装必要的扩展
-RUN docker-php-ext-install mysql mysqli
+RUN docker-php-ext-install mysql mysqli pdo_mysql
 
 # 启用 Apache 重写模块
 RUN a2enmod rewrite
