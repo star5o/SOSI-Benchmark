@@ -43,7 +43,7 @@ if (!$login== 0)
 {
 	$_SESSION["username"] = $login;
 	setcookie("Auth", 1, time()+3600);  /* expire in 15 Minutes */
-	header('Location: logged-in.php');
+	header('Location: Logged-in.php');
 } 
 else
 {

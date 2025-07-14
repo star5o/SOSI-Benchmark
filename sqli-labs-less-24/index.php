@@ -1,7 +1,7 @@
 <?PHP
 session_start();
 if (isset($_SESSION['username']) && isset($_COOKIE['Auth'])) {
-   header('Location: logged-in.php');
+   header('Location: Logged-in.php');
 }
 ?>
 <?php
